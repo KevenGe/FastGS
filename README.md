@@ -21,7 +21,6 @@ FastGS is a **general acceleration framework** that supercharges 3D Gaussian Spl
 - **🔧 Easy Deployment**: Simple post-training tool for feedforward 3DGS that works out-of-the-box
 
 ## 📢 Latest Updates
-
 ### 🎯 Coming Soon
 - **[2025.11.30]** 🔥 **Code Release**: Clean implementation of FastGS core framework  - stay tuned! 🔭
 - **[2025.12.31]** 🎯 **Multi-Task Expansion**:
