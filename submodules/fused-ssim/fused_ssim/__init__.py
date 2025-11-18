@@ -39,12 +39,3 @@ def fused_ssim(img1, img2, padding="same", train=True):
 
     map = FusedSSIMMap.apply(C1, C2, img1, img2, padding, train)
     return map.mean()
-
-def fused_ssim_(img1, img2, padding="same", train=True):
-    C1 = 0.01 ** 2
-    C2 = 0.03 ** 2
-
-    assert padding in allowed_padding
-
-    map = FusedSSIMMap.apply(C1, C2, img1, img2, padding, train)
-    return map.squeeze(0).mean(0)

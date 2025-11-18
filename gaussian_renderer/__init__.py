@@ -13,7 +13,7 @@ import torch
 import math
 from scene.gaussian_model import GaussianModel
 from utils.sh_utils import eval_sh
-from diff_gaussian_rasterization_fastgs import GaussianRasterizationSettings, GaussianRasterizer
+from diff_gaussian_rasterization import GaussianRasterizationSettings, GaussianRasterizer
 
 def render_fastgs(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.Tensor, mult, scaling_modifier = 1.0, override_color = None, get_flag=None, metric_map = None):
     """
